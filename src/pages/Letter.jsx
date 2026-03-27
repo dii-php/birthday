@@ -35,7 +35,7 @@ export default function Letter() {
             <br style={{ display: "block", marginBottom: "20px" }} />
             Oh ya, selamat menjadi adkel lagi WKWKWK, moga ga pusing luh ngeliat materi-materinya 🤭 Kalau butuh dibantu bilang aja deks, kayak ama siapa aja, itung² aku juga mau balas budi kamu kemarin udah banyak ngebantu aku 😇
             <br style={{ display: "block", marginBottom: "20px" }} />
-            Maaf aku cuma bisa ngasih ginian 😥 mau ngasih gift yang berbentuk nanti malah kamu tolak 🙄 (kalau boleh bilang yeah WKKWK)
+            Maaf aku cuma bisa ngasih ginian 😥 mau ngasih gift yang berbentuk nanti malah kamu tolak 🙄 (kalau boleh, bilang yeah WKKWK)
             <br style={{ display: "block", marginBottom: "20px" }} />
             AHHH iya, makasih udah bertahan sejauh ini!! tapi buat reminder aja, jalan mu kedepan masih panjang banget but aku yakin kamu pasti bisa ✌🏻 Jujur aku kalau ngucapin ultah gini agak kurang tau kayak gimana, soalnya jarang bgt aku ngucapin/diucapin, jadi belum tau kalau yang proper tuh gimana 😵‍💫
             <br style={{ display: "block", marginBottom: "20px" }} />
