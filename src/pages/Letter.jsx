@@ -26,7 +26,7 @@ export default function Letter() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <p style={{ textAlign: "justify", lineHeight: "1.8", fontFamily: 'Calibri, sans-serif' }}>
+          <p style={{ textAlign: "justify", lineHeight: "1.8", fontFamily: 'Poppins, sans-serif' }}>
             HOLAAA, ekhem udah tanggal 21 nihh cie yang udah hidup 1,5 dekade 🤭 jangan lupa buat make a wish yaaa!!
             <br style={{ display: "block", marginBottom: "20px" }} />
             Seenggaknya bisa jadi motivasi kamu buat jalanin hidup hari per hari nya 🙌🏻 Wish u all the best, semoga apa yang kamu doakan kemarin untuk hari ini, besok, dan masa depan bisa segera tercapai yeah..
