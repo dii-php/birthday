@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  background: radial-gradient(circle at top, #ffd1dc, #ff69b4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+  margin: auto;
+}
+
+.glass {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+button {
+  border-radius: 999px;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #800020, #a8324a);
+  color: white;
+  font-size: 14px;
+  border: none;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+}
