@@ -180,12 +180,12 @@ export default function Game({ next }) {
             style={{ marginTop: 20 }}
           >
             {phase === "reveal" && (
-              <h3 style={{ color: "#ff4d6d" }}>❌ Yah Salah!</h3>
+              <h3 style={{ color: "#ff4d6d", fontFamily: 'Playfair Display, sans-serif' }}>❌ Yah Salah!</h3>
             )}
 
             {phase === "win" && (
               <>
-                <h3 style={{ color: "#7CFC00" }}>
+                <h3 style={{ color: "#7CFC00", fontFamily: 'Playfair Display, sans-serif' }}>
                   ✅ Eh, Bener WKWK
                 </h3>
                 <button onClick={next}>Next</button>
