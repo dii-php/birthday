@@ -5,7 +5,7 @@ export default function Reveal({ next }) {
   const images = [
     "https://i.imgur.com/nzunA5L.jpeg",
     "https://i.imgur.com/bc3yGaK.jpeg",
-    "https://i.imgur.com/OJcLCkq.jpeg,
+    "https://i.imgur.com/OJcLCkq.jpeg",
     "https://i.imgur.com/OJcLCkq.jpeg"
   ];
 
