@@ -2,6 +2,14 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import confetti from "canvas-confetti";
 import { clickSound, whooshSound } from "../components/Music";
+import { Howl } from "howler"; // 🔥 tambah ini
+
+// 🔥 tambah ini (bg music manual trigger)
+const bgMusic = new Howl({
+  src: ["/music.mp3"],
+  loop: true,
+  volume: 0.4
+});
 
 export default function Game({ next }) {
   const [cups, setCups] = useState([0,1,2,3,4,5,6,7,8]);
@@ -18,7 +26,6 @@ export default function Game({ next }) {
 
   useEffect(() => {
     if (phase === "show") {
-      // 🔥 tambah jeda jadi 2 detik (biar ga buru-buru)
       const t = setTimeout(() => setPhase("shuffle"), 2000);
       return () => clearTimeout(t);
     }
@@ -73,6 +80,11 @@ export default function Game({ next }) {
     setTimeout(() => {
       whooshSound.stop();
       whooshSound.play();
+
+      // 🔥 PLAY MUSIC PAS APPLE PINDAH
+      if (!bgMusic.playing()) {
+        bgMusic.play();
+      }
 
       setPhase("win");
       confetti();
