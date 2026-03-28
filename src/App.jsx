@@ -23,7 +23,6 @@ export default function App() {
 
   return (
     <>
-      <Music />
       <Hearts />
 
       <AnimatePresence mode="wait">
